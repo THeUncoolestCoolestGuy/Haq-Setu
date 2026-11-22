@@ -1,0 +1,703 @@
+[
+  {
+    "scheme_id": "mh_mjpjay_health_2026",
+    "scheme_name": "Mahatma Jyotirao Phule Jan Arogya Yojana (महात्मा फुले जन आरोग्य योजना)",
+    "department": "Public Health Department, Government of Maharashtra",
+    "category": "Universal Health Cover & Hospitalization",
+    "benefit_amount": "₹5,00,000 / year cashless health cover per family across 1,356 medical procedures & surgeries",
+    "monetary_value_inr": 500000,
+    "official_fee_inr": 0,
+    "source_url": "https://beneficiary.nha.gov.in",
+    "portal_apply_url": "https://beneficiary.nha.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Cabinet GR No. MJPJAY-2023/CR-147/Health-6",
+    "application_deadline": "Ongoing (Instant at Empanelled Network Hospitals)",
+    "submission_desk": "Arogyamitra Desk at any Network Hospital / District Civil Hospital",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Resident of Maharashtra",
+        "rule_description": "Must be a permanent resident of Maharashtra."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 800000,
+        "label": "Universal Eligibility (Ration Card Holders)",
+        "rule_description": "Holders of Yellow, Orange, or White ration cards (covers almost all non-luxury households)."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_ration_card",
+        "name": "Valid Maharashtra Ration Card (Yellow/Orange/White)",
+        "level": 1,
+        "official_cost_inr": 0,
+        "how_to_get": "Issued by Food & Civil Supplies Department (Tehsil Office).",
+        "prerequisites": [
+          "Family Head ID"
+        ]
+      },
+      {
+        "doc_id": "doc_photo_id",
+        "name": "Photo Identity Proof (Voter ID or Driving License)",
+        "level": 1,
+        "official_cost_inr": 0,
+        "how_to_get": "Standard government voter identification card.",
+        "prerequisites": []
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_pmay_rural_housing_2026",
+    "scheme_name": "PMAY-G / Ramai Gharkul Rural Housing Scheme (प्रधानमंत्री व रमाई घरकुल योजना)",
+    "department": "Rural Development Department, Government of Maharashtra",
+    "category": "Affordable Rural Pucca Housing Grant",
+    "benefit_amount": "₹1,38,000 direct grant (₹1.20L construction + ₹18,000 MGNREGA wages + ₹12,000 Swachh Bharat toilet)",
+    "monetary_value_inr": 138000,
+    "official_fee_inr": 0,
+    "source_url": "https://rdd.maharashtra.gov.in",
+    "portal_apply_url": "https://pmayg.nic.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Maharashtra Rural Housing Resolution 2026",
+    "application_deadline": "Gram Sabha Priority List Cycle",
+    "submission_desk": "Gram Panchayat Office / Gram Sevak / Panchayat Samiti",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Rural Resident of Maharashtra",
+        "rule_description": "Must reside in rural village jurisdiction."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 150000,
+        "label": "Low Income / BPL Category",
+        "rule_description": "Family living in kutcha/dilapidated house without pucca roof."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_gram_panchayat_res",
+        "name": "Gram Sabha House-Site Resolution & Kutcha House Verification",
+        "level": 2,
+        "official_cost_inr": 0,
+        "how_to_get": "Gram Sevak site visit and Gram Sabha register entry.",
+        "prerequisites": [
+          "Ration Card",
+          "Village voter entry"
+        ]
+      },
+      {
+        "doc_id": "doc_bank_passbook",
+        "name": "Aadhaar-Seeded Bank Account Passbook",
+        "level": 1,
+        "official_cost_inr": 0,
+        "how_to_get": "Bank branch verification for direct DBT transfers.",
+        "prerequisites": [
+          "Bank account"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_krishi_yantrikikaran_2026",
+    "scheme_name": "MahaDBT Krishi Yantrikikaran Subsidy (कृषी यांत्रिकीकरण - ट्रॅक्टर व अवजारे अनुदान)",
+    "department": "Agriculture Engineering Cell, MahaDBT",
+    "category": "Farm Mechanization & Equipment Subsidy",
+    "benefit_amount": "50% to 80% capital subsidy (up to ₹1,25,000 for tractors, ₹25,000-₹50,000 for rotavator/seed drill)",
+    "monetary_value_inr": 125000,
+    "official_fee_inr": 23,
+    "source_url": "https://mahadbt.maharashtra.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in/Farmer/Login/Login",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "MahaDBT Farmer Welfare Guidelines 2026",
+    "application_deadline": "Next Lottery Round: 20 December 2026",
+    "submission_desk": "MahaDBT Farmer Portal / Taluka Krishi Adhikari Office",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Maharashtra Resident Farmer",
+        "rule_description": "Farmer must hold cultivable agricultural land in Maharashtra."
+      },
+      {
+        "field": "land_holding_acres",
+        "operator": "<=",
+        "expected_value": 12.5,
+        "label": "Landholding Eligibility",
+        "rule_description": "Priority preference for Small & Marginal farmers (<= 5 acres get 50% subsidy; SC/ST & women get up to 80%)."
+      },
+      {
+        "field": "prior_subsidy_received",
+        "operator": "==",
+        "expected_value": false,
+        "label": "No Duplicate Subsidy in Last 10 Years",
+        "rule_description": "Must not have availed subsidy for the same equipment type in the past 10 years."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_7_12_8a",
+        "name": "7/12 and 8-A Extract with applicant name",
+        "level": 1,
+        "official_cost_inr": 15,
+        "how_to_get": "Download from Mahabhumi portal (mahabhumi.gov.in).",
+        "prerequisites": [
+          "Survey Number"
+        ]
+      },
+      {
+        "doc_id": "doc_quotation",
+        "name": "Authorized Dealer Machinery Quotation & GST Invoice",
+        "level": 2,
+        "official_cost_inr": 0,
+        "how_to_get": "Obtain quotation from empanelled vendor.",
+        "prerequisites": [
+          "Equipment selection"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_magel_tyala_shetetale_2026",
+    "scheme_name": "Magel Tyala Shettale - Farm Pond Subsidy (मागेल त्याला शेततळे योजना)",
+    "department": "Agriculture & Soil Conservation Department, GoM",
+    "category": "Water Security & Irrigation Infrastructure",
+    "benefit_amount": "Direct subsidy up to ₹75,000 for standard farm pond creation (plastic lining support extra)",
+    "monetary_value_inr": 75000,
+    "official_fee_inr": 0,
+    "source_url": "https://krishi.maharashtra.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in/Farmer/Login/Login",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "GoM Rural Water Conservation Order 2026",
+    "application_deadline": "Open Year-Round (First-Come-First-Served)",
+    "submission_desk": "Taluka Krishi Adhikari / Gram Sevak / MahaDBT Portal",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Maharashtra Agrarian Landholder",
+        "rule_description": "Farmer must hold cultivable agricultural land."
+      },
+      {
+        "field": "land_holding_acres",
+        "operator": ">=",
+        "expected_value": 1.0,
+        "label": "Minimum Landholding: 1 Acre",
+        "rule_description": "Applicant must have at least 0.60 hectare (1 acre) of cultivable land."
+      },
+      {
+        "field": "has_no_prior_pond",
+        "operator": "==",
+        "expected_value": true,
+        "label": "No Existing Farm Pond",
+        "rule_description": "Must not have an active government-funded pond on the parcel."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_7_12_holding",
+        "name": "7/12 & 8-A Extract showing min 1 acre land",
+        "level": 1,
+        "official_cost_inr": 15,
+        "how_to_get": "Download digitally signed copy from Mahabhumi portal.",
+        "prerequisites": [
+          "Survey Number"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_pm_fasal_bima_1re",
+    "scheme_name": "PM Fasal Bima Yojana - ₹1 Shetkari Token Scheme (१ रुपयात पीक विमा)",
+    "department": "Agriculture Insurance Division, GoM",
+    "category": "Crop Insurance & Disaster Relief",
+    "benefit_amount": "Up to ₹50,000 / hectare financial risk cover against drought, unseasonal rain. Farmer pays only ₹1.",
+    "monetary_value_inr": 50000,
+    "official_fee_inr": 1,
+    "source_url": "https://krishi.maharashtra.gov.in",
+    "portal_apply_url": "https://pmfby.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Cabinet Decision GOM-Agri-PBY-2026",
+    "application_deadline": "Rabi 2026 Deadline: 15 December 2026",
+    "submission_desk": "Common Service Center (CSC) / Krishi Sahayak at Village Panchayat",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Cultivating Land in Maharashtra",
+        "rule_description": "Applies to notified crop areas across all districts of Maharashtra."
+      },
+      {
+        "field": "is_farmer",
+        "operator": "==",
+        "expected_value": true,
+        "label": "Owner or Tenant/Sharecropper Farmer",
+        "rule_description": "Both land-owning farmers and registered tenant farmers are eligible."
+      },
+      {
+        "field": "has_notified_crop",
+        "operator": "==",
+        "expected_value": true,
+        "label": "Notified Kharif/Rabi Crop (Soybean, Cotton, Gram, Onion, Wheat)",
+        "rule_description": "Sowing must be recorded in e-Pik Pahani (ई-पीक पाहणी)."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_e_pik_pahani",
+        "name": "e-Pik Pahani Mobile Sowing Self-Declaration",
+        "level": 2,
+        "official_cost_inr": 0,
+        "how_to_get": "Register crop via official e-Pik Pahani Android app within 30 days of sowing.",
+        "prerequisites": [
+          "7/12 Land Extract",
+          "Smartphone with GPS"
+        ]
+      },
+      {
+        "doc_id": "doc_7_12",
+        "name": "Updated 7/12 Land Extract",
+        "level": 1,
+        "official_cost_inr": 15,
+        "how_to_get": "Download via Mahabhumi portal or collect from Village Talathi.",
+        "prerequisites": [
+          "Survey Number"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_sanjay_gandhi_niradhar_2026",
+    "scheme_name": "Sanjay Gandhi Niradhar Anudan Yojana (संजय गांधी निराधार अनुदान योजना)",
+    "department": "Social Justice & Special Assistance Department, GoM",
+    "category": "Social Security Pension for Destitute, Widows & Elderly",
+    "benefit_amount": "₹1,500 / month direct pension (₹18,000 / year) to destitute head, widow or disabled person",
+    "monetary_value_inr": 18000,
+    "official_fee_inr": 0,
+    "source_url": "https://sjsa.maharashtra.gov.in",
+    "portal_apply_url": "https://aaplesarkar.mahaonline.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "SJSA Resolution No. NIR-2023/CR-14/S-3",
+    "application_deadline": "Ongoing (Quarterly Sanction Committee Meetings by Tehsildar)",
+    "submission_desk": "Taluka Tehsildar Office (Niradhar Branch) / Nayab Tehsildar Sanjay Gandhi Committee",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Domicile of Maharashtra (15+ years residence)",
+        "rule_description": "Must have resided in Maharashtra continuously for at least 15 years."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 50000,
+        "label": "Annual Income Limit: ₹50,000",
+        "rule_description": "Family annual income from all sources must not exceed ₹50,000."
+      },
+      {
+        "field": "age",
+        "operator": ">=",
+        "expected_value": 65,
+        "label": "Age 65+ or Destitute Widow/Divyang",
+        "rule_description": "Person aged 65+ without support, OR destitute widow of any age, OR disabled person."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_income_cert_tehsil",
+        "name": "Tehsildar Certified Income Certificate (< ₹50,000/yr)",
+        "level": 2,
+        "official_cost_inr": 33,
+        "how_to_get": "Apply through Aaple Sarkar Kendra or Talathi enquiry report.",
+        "prerequisites": [
+          "Talathi Income Panchnama",
+          "Affidavit"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_namo_shetkari_2026",
+    "scheme_name": "Namo Shetkari Mahasanman Nidhi Yojana (नमो शेतकरी महासन्मान निधी)",
+    "department": "Department of Agriculture, Government of Maharashtra",
+    "category": "Direct Income Support for Farmers",
+    "benefit_amount": "₹6,000 / year state addition (Combined ₹12,000 / year with PM-KISAN) in direct bank transfer",
+    "monetary_value_inr": 12000,
+    "official_fee_inr": 0,
+    "source_url": "https://krishi.maharashtra.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in/Farmer/Login/Login",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "GR No. KRU-2023/CR-88/11-A",
+    "application_deadline": "Ongoing (Quarterly Installments)",
+    "submission_desk": "Aaple Sarkar Seva Kendra / Gram Panchayat Sangram Desk / MahaDBT Portal",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Resident of Maharashtra",
+        "rule_description": "Applicant must reside in Maharashtra and own agricultural land."
+      },
+      {
+        "field": "is_landholder_farmer",
+        "operator": "==",
+        "expected_value": true,
+        "label": "Landholding Farmer",
+        "rule_description": "Must have agricultural land registered in the state revenue records (7/12 extract)."
+      },
+      {
+        "field": "land_holding_acres",
+        "operator": "<=",
+        "expected_value": 5.0,
+        "label": "Small & Marginal Farmer Category",
+        "rule_description": "Landholding should ideally be up to 2 hectares (5 acres)."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_7_12",
+        "name": "Digitally Signed 7/12 & 8A Land Extract",
+        "level": 2,
+        "official_cost_inr": 15,
+        "how_to_get": "Download digitally signed copy from Mahabhumi portal (mahabhumi.gov.in).",
+        "prerequisites": [
+          "Ration Card or Land Survey Number"
+        ]
+      },
+      {
+        "doc_id": "doc_bank_passbook",
+        "name": "Bank Passbook with Aadhaar-NPCI Seeding",
+        "level": 1,
+        "official_cost_inr": 0,
+        "how_to_get": "Visit local bank branch and submit DBT mandate.",
+        "prerequisites": [
+          "Bank Account"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_savitribai_phule_scholarship",
+    "scheme_name": "Savitribai Phule Scholarship for Rural Girls (सावित्रीबाई फुले शिष्यवृत्ती योजना)",
+    "department": "School Education & Sports Department, Maharashtra",
+    "category": "Education & Girl Child Empowerment",
+    "benefit_amount": "₹3,000 / year stipend directly in student bank account + free textbook set",
+    "monetary_value_inr": 3000,
+    "official_fee_inr": 0,
+    "source_url": "https://education.maharashtra.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in/PostMatric/Login",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Maharashtra Edu Circular 2026/SEC-19",
+    "application_deadline": "31 December 2026 (Annual Academic Cycle)",
+    "submission_desk": "School / College Headmaster office or MahaDBT Scholarship Portal",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Studying in Maharashtra",
+        "rule_description": "Girl student must be studying in a recognized school/college in Maharashtra."
+      },
+      {
+        "field": "gender",
+        "operator": "==",
+        "expected_value": "female",
+        "label": "Female Student Only",
+        "rule_description": "Scheme is specifically for empowering girl students."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 250000,
+        "label": "Family Income <= ₹2.5 Lakhs",
+        "rule_description": "Family income must be within lower income bracket."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_bonafide_school",
+        "name": "College / School Bonafide Certificate",
+        "level": 1,
+        "official_cost_inr": 0,
+        "how_to_get": "Request directly from principal / clerk of current institution.",
+        "prerequisites": [
+          "Admission Fee Receipt"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_rajarshi_shahu_maharaj_ebc",
+    "scheme_name": "Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Yojna (राजर्षी छत्रपती शाहू महाराज शिक्षण शुल्क शिष्यवृत्ती)",
+    "department": "Higher & Technical Education Department, Maharashtra",
+    "category": "Higher Education Tuition Assistance (EBC / Open)",
+    "benefit_amount": "50% tuition and exam fee reimbursement directly to college (₹40,000 benefit)",
+    "monetary_value_inr": 40000,
+    "official_fee_inr": 0,
+    "source_url": "https://dhepune.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Maharashtra GR 2026/DHE-88",
+    "application_deadline": "31 March 2027 (Academic Year 2026-2027)",
+    "submission_desk": "MahaDBT Post-Matric Scholarship Portal / College DHE Desk",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Domicile of Maharashtra",
+        "rule_description": "Applicant must be a resident/domicile of Maharashtra."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 800000,
+        "label": "Annual Income <= ₹8 Lakhs",
+        "rule_description": "Family annual income from all sources must not exceed ₹8,00,000."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_income_cert_tahsildar",
+        "name": "Income Certificate issued by Tahsildar",
+        "level": 2,
+        "official_cost_inr": 33,
+        "how_to_get": "Aaple Sarkar portal (aaplesarkar.mahaonline.gov.in) or Tahsildar office.",
+        "prerequisites": [
+          "Ration Card",
+          "Affidavit"
+        ]
+      },
+      {
+        "doc_id": "doc_domicile_cert",
+        "name": "Maharashtra Domicile Certificate",
+        "level": 2,
+        "official_cost_inr": 33,
+        "how_to_get": "Sub-Divisional Magistrate (SDM) or Tahsildar office.",
+        "prerequisites": [
+          "School Leaving Certificate",
+          "Ration Card"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_mahadbt_obc_scholarship",
+    "scheme_name": "Post-Matric Scholarship for OBC Students (इतर मागास प्रवर्ग मॅट्रिकोत्तर शिष्यवृत्ती)",
+    "department": "VJNT, OBC and SBC Welfare Department, Maharashtra",
+    "category": "Caste-Targeted Higher Education Scholarship",
+    "benefit_amount": "100% tuition fee waiver + monthly maintenance allowance (₹25,000 benefit)",
+    "monetary_value_inr": 25000,
+    "official_fee_inr": 0,
+    "source_url": "https://obcwelfare.maharashtra.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "OBC Welfare Dept GR 2026/VJNT-12",
+    "application_deadline": "31 March 2027 (Academic Year 2026-2027)",
+    "submission_desk": "MahaDBT Online Portal / District Social Welfare Office",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Domicile of Maharashtra",
+        "rule_description": "Candidate must belong to Maharashtra state."
+      },
+      {
+        "field": "caste_category",
+        "operator": "==",
+        "expected_value": "OBC",
+        "label": "OBC Caste Category",
+        "rule_description": "Must hold valid Other Backward Class (OBC) caste certificate."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 800000,
+        "label": "Annual Income <= ₹8 Lakhs (Non-Creamy Layer)",
+        "rule_description": "Family income must be within non-creamy layer ceiling."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_caste_cert",
+        "name": "OBC Caste Certificate",
+        "level": 2,
+        "official_cost_inr": 33,
+        "how_to_get": "Sub-Divisional Officer (SDO) or Tahsil office via Aaple Sarkar.",
+        "prerequisites": [
+          "School Leaving Certificate with Caste entry"
+        ]
+      },
+      {
+        "doc_id": "doc_ncl_cert",
+        "name": "Non-Creamy Layer (NCL) Certificate",
+        "level": 2,
+        "official_cost_inr": 33,
+        "how_to_get": "Competent revenue authority (valid for current financial year).",
+        "prerequisites": [
+          "Income Certificate of last 3 years"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_minority_scholarship_2026",
+    "scheme_name": "State Minority Higher Education Scholarship (राज्य अल्पसंख्याक शिष्यवृत्ती योजना)",
+    "department": "Minority Development Department, Maharashtra",
+    "category": "Minority Community Education Grant",
+    "benefit_amount": "₹25,000 / year direct benefit for pursuing higher secondary / technical studies",
+    "monetary_value_inr": 25000,
+    "official_fee_inr": 0,
+    "source_url": "https://mdd.maharashtra.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Maharashtra Minority Dev Circular 2026/M-4",
+    "application_deadline": "31 March 2027",
+    "submission_desk": "MahaDBT Minority Desk / College Clerk",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Domicile of Maharashtra",
+        "rule_description": "Student must be a resident of Maharashtra."
+      },
+      {
+        "field": "religion",
+        "operator": "in",
+        "expected_value": [
+          "Muslim",
+          "Buddhist",
+          "Christian",
+          "Jain",
+          "Sikh",
+          "Parsi"
+        ],
+        "label": "Notified Minority Community",
+        "rule_description": "Must belong to notified minority community (Muslim, Buddhist, Christian, Jain, Sikh)."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 800000,
+        "label": "Family Income <= ₹8 Lakhs",
+        "rule_description": "Total family annual income must not exceed ₹8 Lakhs."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_minority_declaration",
+        "name": "Self-Declaration of Minority Community / School Leaving Certificate",
+        "level": 1,
+        "official_cost_inr": 0,
+        "how_to_get": "Signed self-declaration on MahaDBT portal or TC showing religion.",
+        "prerequisites": []
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_divyang_swadhar_sahayata_2026",
+    "scheme_name": "Divyang Swadhar & Sahayata Scheme (दिव्यांग स्वाधार व विशेष सहाय्य योजना)",
+    "department": "Department of Empowerment of Persons with Disabilities, Maharashtra",
+    "category": "Divyang & Special Needs Financial Assistance",
+    "benefit_amount": "₹48,000 / year (₹4,000 / month educational stipend & assistive allowance)",
+    "monetary_value_inr": 48000,
+    "official_fee_inr": 0,
+    "source_url": "https://sjsa.maharashtra.gov.in",
+    "portal_apply_url": "https://swavlambancard.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Maharashtra Divyang Welfare Act Resolution 2026",
+    "application_deadline": "Open Year-Round (Continuous Enrollment)",
+    "submission_desk": "District Social Welfare Officer (Divyang Cell) / MahaDBT",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Maharashtra Resident",
+        "rule_description": "Applicant must reside in Maharashtra."
+      },
+      {
+        "field": "has_disability",
+        "operator": "==",
+        "expected_value": true,
+        "label": "Person with Benchmark Disability (Divyang 40%+)",
+        "rule_description": "Must possess UDID card or 40%+ benchmark disability certificate."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_udid_card",
+        "name": "UDID (Unique Disability ID) Card or Civil Hospital Certificate",
+        "level": 1,
+        "official_cost_inr": 0,
+        "how_to_get": "Apply online at swavlambancard.gov.in or District Civil Surgeon Medical Board.",
+        "prerequisites": [
+          "Medical assessment",
+          "Aadhaar Card"
+        ]
+      }
+    ]
+  },
+  {
+    "scheme_id": "mh_sc_post_matric_scholarship",
+    "scheme_name": "Government of India Post-Matric Scholarship for SC Students (अनुसूचित जाती मॅट्रिकोत्तर शिष्यवृत्ती)",
+    "department": "Social Justice and Special Assistance Department, Maharashtra",
+    "category": "SC Social Justice Higher Education Grant",
+    "benefit_amount": "100% compulsory fee waiver + maintenance allowance + book bank (₹35,000 benefit)",
+    "monetary_value_inr": 35000,
+    "official_fee_inr": 0,
+    "source_url": "https://sjsa.maharashtra.gov.in",
+    "portal_apply_url": "https://mahadbt.maharashtra.gov.in",
+    "last_verified_date": "2026-11-21",
+    "verification_authority": "Social Justice Circular 2026/SC-PostMatric",
+    "application_deadline": "31 March 2027",
+    "submission_desk": "MahaDBT Social Justice Desk",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "==",
+        "expected_value": "Maharashtra",
+        "label": "Domicile of Maharashtra",
+        "rule_description": "Applicant must be a resident of Maharashtra."
+      },
+      {
+        "field": "caste_category",
+        "operator": "==",
+        "expected_value": "SC",
+        "label": "Scheduled Caste (SC) Category",
+        "rule_description": "Must belong to Scheduled Caste (SC) or Neo-Buddhist community."
+      },
+      {
+        "field": "annual_income",
+        "operator": "<=",
+        "expected_value": 250000,
+        "label": "Family Income <= ₹2.5 Lakhs",
+        "rule_description": "Annual income from all sources must be up to ₹2.5 Lakhs."
+      }
+    ],
+    "required_documents": [
+      {
+        "doc_id": "doc_caste_cert",
+        "name": "SC Caste Certificate",
+        "level": 2,
+        "official_cost_inr": 33,
+        "how_to_get": "Competent authority via Aaple Sarkar portal.",
+        "prerequisites": [
+          "Birth/School record"
+        ]
+      }
+    ]
+  }
+]
