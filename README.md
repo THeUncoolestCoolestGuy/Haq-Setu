@@ -71,18 +71,6 @@ Open your browser and navigate to:
 
 ---
 
-## 🏆 Alignment with Codebenders Judging Criteria
-
-| Criterion | Weight | How HaqSetu Wins |
-| :--- | :--- | :--- |
-| **Working Product** | **30%** | Full-stack application with live edge voice recognition in Marathi/Hindi, instant slot parsing, dynamic rule matching, and WhatsApp/Print dossier export. |
-| **Business Viability** | **25%** | Sustainable multi-stakeholder model: funded by CSR mandates (Section 135) and Priority Sector Lending (PSL) banks (Kisan Credit Card pre-qualification), making it free for the citizen. |
-| **Problem & User Clarity** | **20%** | Focus on Maharashtra dryland farmers; eliminates middleman fees and addresses the missing-document bottleneck. |
-| **Build Quality & ACE** | **15%** | Ambient Contextual Engineering: Extracts structured parameters from natural speech, separating dynamic rule data (`schemes.json`) from logic. |
-| **Presentation & Demo** | **10%** | Includes 4 built-in one-click demo personas (Solapur dryland farmer, Vidarbha cotton loss, Senior widow, Farm mechanization) for a fail-safe stage presentation. |
-
----
-
 ## 📜 Publicly Verified Government Sources
 * [MahaDBT Portal](https://mahadbt.maharashtra.gov.in)
 * [Department of Agriculture, GoM](https://krishi.maharashtra.gov.in)
