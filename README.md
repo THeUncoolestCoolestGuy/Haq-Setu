@@ -9,12 +9,13 @@
 ## 🌟 Overview & Why HaqSetu Exists
 
 India has hundreds of central and state government schemes offering pensions, crop insurance, equipment subsidies, and scholarships. Yet, millions of eligible rural families miss out because:
+
 1. Information is scattered across fragmented portals (e.g., *MahaDBT* for applications vs. *Aaple Sarkar* for revenue certificates).
 2. Traditional apps force semi-literate citizens through **intimidating 25-question forms**.
 3. Local middlemen (*dalals*) exploit citizens by charging ₹500 to ₹1,500 for services that are **legally free (₹0)**.
 
 **HaqSetu (हक-सेतु)** solves this through **Ambient Contextual Engineering (ACE)**:
-Instead of asking 25 questions, a citizen speaks or types **one natural sentence in Marathi, Hindi, or English**. The engine extracts ambient socio-economic context, evaluates it against dynamic state regulatory schemas (`schemes.json`), explains the exact reasoning behind every match, and produces a 1-page **Anti-Middleman Action Dossier**.
+  Instead of asking 25 questions, a citizen speaks or types **one natural sentence in Marathi, Hindi, or English**. The engine extracts ambient socio-economic context, evaluates it against dynamic state regulatory schemas   (`schemes.json`), explains the exact reasoning behind every match, and produces a 1-page **Anti-Middleman Action Dossier**.
 
 ---
 
