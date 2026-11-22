@@ -21,16 +21,27 @@ Instead of asking 25 questions, a citizen speaks or types **one natural sentence
 ## 🚀 Key Features
 
 * **🎙️ Zero-Latency Edge Voice Recognition**: Built-in Web Speech API supporting **मराठी (`mr-IN`)**, **हिंदी (`hi-IN`)**, and **English (`en-IN`)** running 100% on the client device.
+  
 * **💾 SQLite Database Persistence (`haqsetu.db`)**: Real SQL database storing citizen accounts, socio-economic profiles, and tracked application lifecycles.
+  
 * **🛡️ Government Nodal Officer Admin Console**: Dedicated admin role (`Shrey Paunwala`) with real-time audit tables, citizen distribution metrics, and live rule editors.
+  
 * **🔄 Weekly Government Portal Sync Engine (`sync_engine.py`)**: Automated polling of `krishi.maharashtra.gov.in` and `mahadbt.maharashtra.gov.in` to track Government Resolutions (GRs), verify deadlines, and audit rules weekly.
+  
 * **🔑 Zero-PII Citizen Authentication**: Secure Sign In / Register without asking for Aadhaar or confidential documents (Name, Mobile, District only).
+
 * **📋 Real-Time Application Stage Tracker**: Tracks progress through 4 verified stages: *Discovered* $\to$ *Documents Pending* $\to$ *Submitted at CSC / Setu* $\to$ *DBT Credited*.
+  
 * **🧠 Explainable Rule Matching (Not a Black Box)**: Every matched scheme displays the exact criteria met (e.g., *"Matched: Landholding 1.5 acres is $\le$ 5.0 acres"*).
+  
 * **🪜 Document Readiness Ladder**: Solves the #1 reason welfare fails by distinguishing between *Foundational Documents You Have* (Level 1) and *Derived Certificates to Acquire First* (Level 2) with official government statutory fees.
+  
 * **🛡️ Strict Zero-PII Architecture**: Explicit guardrail—**No Aadhaar or sensitive ID numbers are ever collected or stored**. Built-in regex filters intercept and scrub accidental 12-digit entries.
+  
 * **⚠️ "Likely Eligible" Guardrail**: All results explicitly maintain non-guaranteed statutory language.
+  
 * **📝 Dynamic, Editable Scheme Rules (`schemes.json`)**: An interactive admin modal lets officials update income ceilings or deadlines without touching code.
+  
 * **📄 Anti-Middleman 1-Page Kiosk Action Dossier**: A 1-click printable / WhatsApp summary that prominently displays: **OFFICIAL GOVT FEE: ₹0 (FREE)**, preventing CSC tout extortion.
 
 ---
